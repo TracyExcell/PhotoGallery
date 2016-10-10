@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang ="en"> 
+
+<head>
+	<meta charset ="utf-8">
+	   <title>Photo Gallery</title>
+	       <meta name="viewport" content="width=device-width, initial-scale=1">
+	       <link rel="stylesheet" href="normalize.css">
+	       <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+           <link rel="stylesheet" type="text/css" href="photobox.css">
+           <link rel="stylesheet" href="base.css">
+           <link rel="stylesheet" href="nav.css">
+</head>
+    
+    <body>
+        <header>
+                <input id="search" type="text" placeholder="Search">
+        </header>
+         
+         <div id="photo-container" class="data-list">
+             <ul>
+                    <li data-keywords="dry hill"><a href="Photos/01.jpg"><img src="Photos/Thumbnails/01.jpg" alt="Photo of a dry hill with blue skys.  This image was captured at the end of Summer in the region of Hawkes Bay."  title="Dry Hill" class="photo photo1">
+                        </a></li>
+                    <li data-keywords="lake blue sky"><a href="Photos/02.jpg"><img src="Photos/Thumbnails/02.jpg" alt="Photo of a lake with blue sky.  This image was taken in the mid morning of the Lakes District. " title="Lake" class="photo">
+                         </a></li>
+                     <li data-keywords="green fields"><a href="Photos/03.jpg"><img src="Photos/Thumbnails/03.jpg" alt="Green Fields is an image captured in the lush Southland area. " title="Photo Three" class="photo">
+                         </a></li>
+                     <li data-keywords="snow capped mountains" ><a href="Photos/04.jpg"><img src="Photos/Thumbnails/04.jpg" alt="Snow Capped Mountains is an image that reminded me of home when touring this region." title="Snow Capped Mountains" class="photo">
+                         </a></li>
+                     <li data-keywords="limestone formations"><a href="Photos/05.jpg"><img src="Photos/Thumbnails/05.jpg" alt="Limestone formations is a magnificent display of the effects of erosion on these landforms." title="Limestone Formations" class="photo">
+                           </a></li>
+                     <li data-keywords="fence garden trees"><a href="Photos/06.jpg"><img src="Photos/Thumbnails/06.jpg" alt="A fenced garden, reminded me of a scene from a Jane Austin movie." title="A Fenced Garden" class="photo">
+                             </a></li>
+                    <li data-keywords="green valley"><a href="Photos/07.jpg"><img src="Photos/Thumbnails/07.jpg" alt="Green Valley is an image that shows the lush vegetation of the area." title="Green Valley" class="photo">
+                             </a></li>
+                     <li data-keywords="sand dunes beach"><a href="Photos/08.jpg"><img src="Photos/Thumbnails/08.jpg" style="width: 600px;" alt="Sand Dunes on the beach, could be anywhere in the world, however it is one of my favourite places.  I really enjoyed staying at this location and would recomend it to anyone." title="Sand Dunes" class="photo">
+                        </a></li>
+                     <li data-keywords="road nowhere circle"><a href="Photos/09.jpg"><img src="Photos/Thumbnails/09.jpg" alt="Road to nowhere caught my eye while driving down a narow road.. leading to nowhere!" title="Road to nowhere" class="photo">
+                        </a></li>
+                     <li data-keywords="ocean waves"><a href="Photos/10.jpg"><img src="Photos/Thumbnails/10.jpg" alt="Ocean Waves was a calming place where I could rest and relax." title="Ocean Waves" class="photo">
+                        </a></li>
+                    <li data-keywords=" a peak into the valley"><a href="Photos/11.jpg"><img src="Photos/Thumbnails/11.jpg" alt="A Peak into the Valley, is my favourite image as it shows what we can see from above and beyond." title="A Peak into the Valley" class="photo">
+                        </a></li>
+                    <li data-keywords="blue bell fields"><a href="Photos/12.jpg"><img src="Photos/Thumbnails/12.jpg" alt="Blue Bell Fields reminds me of Spring, when the flowers blossom and the grass begins to grow." title="Blue Bell Fields" class="photo">
+                        </a></li>
+             </ul>
+            </div><!--closing photo-container-->
+        
+           
+           <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+            
+           <script type="text/javascript" src="jquery.photobox.js"></script>
+            
+           <script type="text/javascript" src="search.js"></script>
+        
+           <script>
+            $('#photo-container').photobox('a',{ time:0 });
+            </script> 
+  
+    </body>
+</html>

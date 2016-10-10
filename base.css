@@ -1,0 +1,61 @@
+
+* {
+    
+    box-sizing: border-box;
+}
+
+/* header styles*/
+
+    header {
+        position: relative;
+        height: 50px;
+        padding-top: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    #search {
+        position: absolute;
+        left: 30%;
+    }
+
+/* Search bar styles*/
+
+#search-bar {
+  margin-top: 50px;
+  margin-left: 10%;
+   }
+
+ input[type=text] {
+     width: 150px;
+     height: 22px; 
+     border: none;
+     border: 2px solid lightgray;
+     border-radius: 6%;
+}
+
+input[type=text]:focus {
+    outline: 0;
+}
+
+/*Photo container styles*/
+
+#photo-container {
+    max-width: 400px;
+    margin: 10% 15%;
+    padding: 0;
+        
+}
+.photo {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    padding: 5px;  
+   
+    
+}
+
+
+ul li {
+    list-style-type: none;
+}

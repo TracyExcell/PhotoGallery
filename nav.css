@@ -1,0 +1,68 @@
+
+
+@media screen and (min-width: 720px) {
+
+#search {
+        left: 33%;
+    }
+    
+ input[type=text] {
+     width: 240px;       
+}
+    
+#photo-container {
+    max-width: 700px;
+    max-height: 800px;
+    margin: 5% 25%;
+    padding: 0;        
+}
+    
+.photo {
+    width: 300px;
+    height: 300px;
+    }
+    
+}
+@media screen and (min-width: 1020px) {
+  
+
+#photo-container{
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+   -moz-column-count: 4; /* Firefox */
+   column-count: 4;
+}
+    
+#photo-container {
+    -webkit-column-gap: 60px; /* Chrome, Safari, Opera */
+   -moz-column-gap: 60px; /* Firefox */
+    column-gap: 60px;
+} 
+    
+#photo-container {
+    margin: 5% 8%;
+    padding: 0;
+    max-width: 980px;  
+}
+    
+.photo {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 60px;
+    }
+    
+    .photo1 {
+        margin-top: -15px;
+    }
+    
+    
+    #search {
+        left: 32%;
+    }
+    
+    input[type=text] {
+     width: 460px;  
+     
+}
+
+        
+}
